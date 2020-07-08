@@ -503,13 +503,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 121,
+          "height": 50,
           "layer": "",
           "locked": false,
           "name": "Keyboard",
-          "width": 643,
-          "x": 40,
-          "y": 495,
+          "width": 38,
+          "x": 66,
+          "y": 992,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -611,10 +611,10 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Tamanho",
+          "name": "teste",
           "width": 0,
-          "x": 14,
-          "y": 951,
+          "x": 289,
+          "y": 905,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -895,18 +895,18 @@
           }
         },
         {
-          "bold": false,
+          "bold": true,
           "italic": false,
-          "name": "Tamanho",
+          "name": "teste",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Palavra",
+          "string": "teste",
           "font": "",
-          "characterSize": 40,
+          "characterSize": 50,
           "color": {
             "b": 0,
             "g": 0,
@@ -931,13 +931,71 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextEntryObject::Activate"
+              },
+              "parameters": [
+                "Keyboard",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": [
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"CountDown\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "marcadorTempo",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Tempo",
+                    "=",
+                    "GlobalVariableString(marcadorTempo)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\n\nvar emoji = runtimeScene.getVariables().get('arrayMovie');\nvar movie = runtimeScene.getVariables().get('arrayNome');\nvar ajuda = runtimeScene.getVariables().get('arrayHelp');\n\n   /*var nomedefilmes = {\n\n    nome: ['The walking Dead', 'Procurando Nemo', 'Friends', 'Fuga das Galinhas', 'IT a coisa','Forrest Gump','Twister','Sharknado' ],\n    emoji: ['😱🔫', '🔍🐟', '👱‍♂👩🏼👱‍♂👩🏼👱‍♂👩🏼🛋','🏃‍♂💨🐔🐔🐔🐔',' 🤡👦🏻🎈','👩‍👦🗣🏃👟⛴','🌨❄🌎🌪🚐','🌪🐟'],\n    dica: ['Serie de sobrevivencia da FOX','Filme de um peixe perdido','Série de amigos inseparáveis','Filme onde galinhas armam planos',\n    'Filme de grande sucesso dos anos 80 que teve um remake recentemente','Um homem sentado num banco','Cientistas que gostam de tornados',\n    'Tornado joga animais marítimos']         \n     };\n\n     var m_sort = nomedefilmes[Math.floor(Math.random() * 6 + 1)];\n\n     movie = movie.setString(nomedefilmes[m_sort]);\n\n*/\n\nvar emoji_array = new Array ('🔫😱', '       🔍🐟', '👱‍♂👩🏼👱‍♂👩🏼👱‍♂👩🏼 🛋', '🏃‍♂💨🐔🐔🐔🐔', '       🤡👦🏻🎈', '👩‍👦🗣🏃👟⛴', '🌨❄🌎🌪🚐', '🌪🐟');\nvar name_array = new Array ('The walking Dead','Procurando Nemo','Friends','Fuga das Galinhas','IT a coisa','Forrest Gump','Twister','Sharknado');\nvar help_array = new Array ('Serie de sobrevivencia da FOX', 'Filme de um peixe perdido', 'Série de amigos inseparáveis','Filme onde galinhas armam planos',\n'Filme de grande sucesso dos anos 80 que teve um remake recentemente','Um homem sentado num banco','Cientistas que gostam de tornados',\n'Tornado joga animais marítimos');\n\n \nvar e_rdm = parseInt(Math.random()*6 + 1);\n\nvar qdt = name_array.length;\n\nemoji = emoji.setString(emoji_array[e_rdm]);\nmovie = movie.setString(name_array[e_rdm]);\najuda = ajuda.setString(help_array[e_rdm]);\n\n\n\n\n",
+              "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\n\nvar emoji = runtimeScene.getVariables().get('arrayMovie');\nvar movie = runtimeScene.getVariables().get('arrayNome');\nvar ajuda = runtimeScene.getVariables().get('arrayHelp');\n\n// Precisa resetar na proxima pergunta\nvar chars = \"qwertyuiopasdfghjklçzxcvbnm\".split('');\n\n// Pegar de um arquivo .json depois\nvar jsonData = '{  \"data\": [    {      \"Name\": \"The walking Dead\",      \"emoji\": \"😱🔫\",      \"dica\": \"Serie de sobrevivencia da FOX\"    },    {      \"Name\": \"Procurando Nemo \",      \"emoji\": \"🔍🐟\",      \"dica\": \"Filme de um peixe perdido\"    },    {      \"Name\": \"Friends\",      \"emoji\": \"👱‍♂👩🏼👱‍♂👩🏼👱‍♂👩🏼🛋\",      \"dica\": \"Série de amigos inseparáveis\"    },    {      \"Name\": \"Fuga das Galinhas\",      \"emoji\": \"🏃‍♂💨🐔🐔🐔🐔\",      \"dica\": \"Filme onde galinhas armam planos\"    },    {      \"Name\": \"IT a coisa\",      \"emoji\": \"🤡👦🏻🎈\",      \"dica\": \"Filme de grande sucesso dos anos 80 que teve um remake recentemente\"    },    {      \"Name\": \"Forrest Gump\",      \"emoji\": \"👩‍👦🗣🏃👟⛴\",      \"dica\": \"Um homem sentado num banco\"    },    {      \"Name\": \"Twister\",      \"emoji\": \"🌨❄🌎🌪🚐\",      \"dica\": \"Cientistas que gostam de tornados\"    },    {      \"Name\": \"Sharknado\",      \"emoji\": \"🌪🐟\",      \"dica\": \"Tornado joga animais marítimos\"    }  ]}';\nvar dataObj = JSON.parse(jsonData);\nvar randomNum = parseInt(Math.random()*dataObj.data.length);\n\n\n//Ocultar nome que possui chars. rodar isso a cada reposta e remover do chars array quando selecionar algo no teclado.\nvar splitName = dataObj.data[randomNum].Name.split('');\nvar NameHided = '';\nfor (var i = 0; i < splitName.length; i++) {\n    if(chars.includes(splitName[i].toLowerCase())){\n        NameHided += \"🔲\";\n        \n    }else{\n        NameHided += splitName[i];\n    }\n    \n}\n\n /*if(Keyboard.String() == chars){\n    for( var i = 0; i < splitName.length; i++){\n        if(splitName[i] == chars.toLowerCase){\n            NameHided\n        }\n    }\n}\n*/\n\n\n\nemoji = emoji.setString(NameHided);\nmovie = movie.setString(dataObj.data[randomNum].emoji);\najuda = ajuda.setString(dataObj.data[randomNum].dica);\n\n\n\n",
               "parameterObjects": "",
               "useStrict": true
             },
@@ -955,7 +1013,7 @@
                   "parameters": [
                     "Name_movie",
                     "=",
-                    "VariableString(arrayMovie)"
+                    "VariableString(arrayNome)"
                   ],
                   "subInstructions": []
                 },
@@ -979,19 +1037,7 @@
                   "parameters": [
                     "Forca",
                     "=",
-                    "VariableString(arrayNome)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Tamanho",
-                    "=",
-                    "VariableString(qtd)"
+                    "VariableString(arrayMovie)"
                   ],
                   "subInstructions": []
                 }
@@ -1014,18 +1060,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "Rodadas",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -1035,73 +1069,14 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "Tempo",
+                "teste",
                 "=",
-                "\"Tempo: \" +GlobalVariableString(Tempo)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "marcadorTempo",
-                "+",
-                "1"
+                "Keyboard.String()"
               ],
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "marcadorTempo",
-                    "=",
-                    "60"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "marcadorTempo",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "Tempo",
-                    "-",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
@@ -1190,16 +1165,7 @@
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
-              "events": []
-            }
-          ]
+          "events": []
         }
       ],
       "layers": [
