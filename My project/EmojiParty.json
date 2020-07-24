@@ -127,6 +127,77 @@
         "name": "logo_sky.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logo_emoji_party_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo_emoji_party_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_02_branco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_02_branco.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "PFDinTextPro-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PFDinTextPro-Bold.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "PFDinTextPro-Medium.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PFDinTextPro-Medium.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "PFDinTextPro-LightItalic.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PFDinTextPro-LightItalic.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logo_emoji_party.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logo_emoji_party.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "PFDinTextPro-XBlack.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PFDinTextPro-XBlack.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "../../Emoji_party/PFDinTextPro-BoldItal.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "..\\..\\Emoji_party\\PFDinTextPro-BoldItal.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -155,8 +226,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene",
-      "name": "New scene",
+      "mangledName": "Start",
+      "name": "Start",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -176,7 +247,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.376
+        "zoomFactor": 0.184
       },
       "objectsGroups": [],
       "variables": [],
@@ -204,8 +275,143 @@
           "locked": false,
           "name": "Button_play",
           "width": 456,
-          "x": 136,
-          "y": 904,
+          "x": 116,
+          "y": 936,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 431,
+          "layer": "",
+          "locked": false,
+          "name": "Logo",
+          "width": 630,
+          "x": 40,
+          "y": 56,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 589,
+          "layer": "",
+          "locked": false,
+          "name": "BG",
+          "width": 721,
+          "x": 0,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 103,
+          "layer": "",
+          "locked": false,
+          "name": "Text_1",
+          "width": 567,
+          "x": 76,
+          "y": 618,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Text_2",
+          "width": 0,
+          "x": 154,
+          "y": 747,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "SKY_LOGO",
+          "width": 0,
+          "x": 211,
+          "y": 1124,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "text_play",
+          "width": 0,
+          "x": 264,
+          "y": 960,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -35,
+          "customSize": true,
+          "height": 1247,
+          "layer": "",
+          "locked": false,
+          "name": "Emoji",
+          "width": 1605,
+          "x": -49,
+          "y": 358,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 188,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 720,
+          "x": 0,
+          "y": 1095,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -35,
+          "customSize": true,
+          "height": 1247,
+          "layer": "",
+          "locked": false,
+          "name": "Emoji",
+          "width": 1605,
+          "x": 842,
+          "y": 1635,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -293,9 +499,261 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "logo_emoji_party_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BG",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "BG_02_branco.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Text_1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "ADIVINHE SUAS SÉRIES E FILMES \nFAVORITOS ATRAVÉS DOS EMOJIS!",
+          "font": "PFDinTextPro-LightItalic.ttf",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Text_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "SERÁ QUE VOCE \nCONSEGUE?",
+          "font": "PFDinTextPro-Bold.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "SKY_LOGO",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "logo_sky.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "text_play",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "JOGAR",
+          "font": "PFDinTextPro-Medium.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Emoji",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "😀😁😂😎😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😴\n🤔😠😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😝🤓\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩😇😬\n😰😱😳😦😵😠😡😵😷🤒\n🤕😨😷😇😯😱🙁😢😩😞\n😀😁😂🤑😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😋\n🤔😘😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😃😚\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩🤗😬\n😰😱😳😞😵😠😡😬😷🤒\n🤕😇🙄😜😕😟😱😖😷🤓",
+          "font": "",
+          "characterSize": 90,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "Text_1",
+                "\"center\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "Text_2",
+                "\"center\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "Emoji",
+                "=",
+                "75"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -323,8 +781,77 @@
               },
               "parameters": [
                 "",
-                "\"New scene2\"",
+                "\"Game\"",
                 "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Emoji",
+                "235\n\n",
+                "70",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Emoji",
+                "<=",
+                "-950\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Emoji",
+                "=",
+                "813\n\n\n",
+                "=",
+                "1606"
               ],
               "subInstructions": []
             }
@@ -351,13 +878,18 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
     },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene2",
-      "name": "New scene2",
+      "mangledName": "Game",
+      "name": "Game",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -995,8 +1527,8 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\n\nvar emoji = runtimeScene.getVariables().get('arrayMovie');\nvar movie = runtimeScene.getVariables().get('arrayNome');\nvar ajuda = runtimeScene.getVariables().get('arrayHelp');\n\n// Precisa resetar na proxima pergunta\nvar chars = \"qwertyuiopasdfghjklçzxcvbnm\".split('');\n\n// Pegar de um arquivo .json depois\nvar jsonData = '{  \"data\": [    {      \"Name\": \"The walking Dead\",      \"emoji\": \"😱🔫\",      \"dica\": \"Serie de sobrevivencia da FOX\"    },    {      \"Name\": \"Procurando Nemo \",      \"emoji\": \"🔍🐟\",      \"dica\": \"Filme de um peixe perdido\"    },    {      \"Name\": \"Friends\",      \"emoji\": \"👱‍♂👩🏼👱‍♂👩🏼👱‍♂👩🏼🛋\",      \"dica\": \"Série de amigos inseparáveis\"    },    {      \"Name\": \"Fuga das Galinhas\",      \"emoji\": \"🏃‍♂💨🐔🐔🐔🐔\",      \"dica\": \"Filme onde galinhas armam planos\"    },    {      \"Name\": \"IT a coisa\",      \"emoji\": \"🤡👦🏻🎈\",      \"dica\": \"Filme de grande sucesso dos anos 80 que teve um remake recentemente\"    },    {      \"Name\": \"Forrest Gump\",      \"emoji\": \"👩‍👦🗣🏃👟⛴\",      \"dica\": \"Um homem sentado num banco\"    },    {      \"Name\": \"Twister\",      \"emoji\": \"🌨❄🌎🌪🚐\",      \"dica\": \"Cientistas que gostam de tornados\"    },    {      \"Name\": \"Sharknado\",      \"emoji\": \"🌪🐟\",      \"dica\": \"Tornado joga animais marítimos\"    }  ]}';\nvar dataObj = JSON.parse(jsonData);\nvar randomNum = parseInt(Math.random()*dataObj.data.length);\n\n\n//Ocultar nome que possui chars. rodar isso a cada reposta e remover do chars array quando selecionar algo no teclado.\nvar splitName = dataObj.data[randomNum].Name.split('');\nvar NameHided = '';\nfor (var i = 0; i < splitName.length; i++) {\n    if(chars.includes(splitName[i].toLowerCase())){\n        NameHided += \"🔲\";\n        \n    }else{\n        NameHided += splitName[i];\n    }\n    \n}\n\n /*if(Keyboard.String() == chars){\n    for( var i = 0; i < splitName.length; i++){\n        if(splitName[i] == chars.toLowerCase){\n            NameHided\n        }\n    }\n}\n*/\n\n\n\nemoji = emoji.setString(NameHided);\nmovie = movie.setString(dataObj.data[randomNum].emoji);\najuda = ajuda.setString(dataObj.data[randomNum].dica);\n\n\n\n",
-              "parameterObjects": "",
+              "inlineCode": "runtimeScene.setBackgroundColor(100,100,240);\n\nvar emoji = runtimeScene.getVariables().get('arrayMovie');\nvar movie = runtimeScene.getVariables().get('arrayNome');\nvar ajuda = runtimeScene.getVariables().get('arrayHelp');\n\n// Precisa resetar na proxima pergunta\nvar chars = \"qwertyuiopasdfghjklçzxcvbnm\".split('');\n\n// Pegar de um arquivo .json depois\nvar jsonData = '{  \"data\": [    {      \"Name\": \"The walking Dead\",      \"emoji\": \"😱🔫\",      \"dica\": \"Serie de sobrevivencia da FOX\"    },    {      \"Name\": \"Procurando Nemo \",      \"emoji\": \"🔍🐟\",      \"dica\": \"Filme de um peixe perdido\"    },    {      \"Name\": \"Friends\",      \"emoji\": \"👱‍♂👩🏼👱‍♂👩🏼👱‍♂👩🏼🛋\",      \"dica\": \"Série de amigos inseparáveis\"    },    {      \"Name\": \"Fuga das Galinhas\",      \"emoji\": \"🏃‍♂💨🐔🐔🐔🐔\",      \"dica\": \"Filme onde galinhas armam planos\"    },    {      \"Name\": \"IT a coisa\",      \"emoji\": \"🤡👦🏻🎈\",      \"dica\": \"Filme de grande sucesso dos anos 80 que teve um remake recentemente\"    },    {      \"Name\": \"Forrest Gump\",      \"emoji\": \"👩‍👦🗣🏃👟⛴\",      \"dica\": \"Um homem sentado num banco\"    },    {      \"Name\": \"Twister\",      \"emoji\": \"🌨❄🌎🌪🚐\",      \"dica\": \"Cientistas que gostam de tornados\"    },    {      \"Name\": \"Sharknado\",      \"emoji\": \"🌪🐟\",      \"dica\": \"Tornado joga animais marítimos\"    }  ]}';\nvar dataObj = JSON.parse(jsonData);\nvar randomNum = parseInt(Math.random()*dataObj.data.length);\n\n\n//Ocultar nome que possui chars. rodar isso a cada reposta e remover do chars array quando selecionar algo no teclado.\nvar splitName = dataObj.data[randomNum].Name.split('');\nvar NameHided = '';\nfor (var i = 0; i < splitName.length; i++) {\n    if(chars.includes(splitName[i].toLowerCase())){\n        NameHided += \"🔲\";\n        \n    }else{\n        NameHided += splitName[i];\n    }\n    \n}\n\n /*if(Keyboard.String() == chars){\n    for( var i = 0; i < splitName.length; i++){\n        if(splitName[i] == chars.toLowerCase){\n            NameHided\n        }\n    }\n}\n*/\n\nvar input = Keyboard;\n\n\n\n\n\n\nemoji = emoji.setString(NameHided);\nmovie = movie.setString(dataObj.data[randomNum].emoji);\najuda = ajuda.setString(dataObj.data[randomNum].dica);\n\n\n\n",
+              "parameterObjects": "Keyboard",
               "useStrict": true
             },
             {
@@ -1161,6 +1693,1206 @@
                 "",
                 "\"New scene\"",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Index",
+      "name": "Index",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.202
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1280,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 720,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -35,
+          "customSize": true,
+          "height": 1579,
+          "layer": "",
+          "locked": false,
+          "name": "Emoji",
+          "width": 1999,
+          "x": -279,
+          "y": -212,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -35,
+          "customSize": false,
+          "height": 1579,
+          "layer": "",
+          "locked": false,
+          "name": "Emoji_2",
+          "width": 1239,
+          "x": -2319,
+          "y": 1975,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -35,
+          "customSize": true,
+          "height": 1579,
+          "layer": "",
+          "locked": false,
+          "name": "Emoji",
+          "width": 1849,
+          "x": 916,
+          "y": 1509,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 201,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 720,
+          "x": 0,
+          "y": 1079,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 463,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 720,
+          "x": 0,
+          "y": 290,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 358,
+          "layer": "",
+          "locked": false,
+          "name": "Logo",
+          "width": 565,
+          "x": 82,
+          "y": 336,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Logo_SKY",
+          "width": 0,
+          "x": 211,
+          "y": 1118,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "BG_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Emoji",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "😀😁😂😎😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😴\n🤔😠😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😝🤓\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩😇😬\n😰😱😳😦😵😠😡😵😷🤒\n🤕😨😷😇😯😱🙁😢😩😞\n😀😁😂🤑😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😋\n🤔😘😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😃😚\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩🤗😬\n😰😱😳😞😵😠😡😬😷🤒\n🤕😇🙄😜😕😟😱😖😷🤓",
+          "font": "",
+          "characterSize": 120,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Emoji_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "😀😁😂😎😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😴\n🤔😠😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😝🤓\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩😇😬\n😰😱😳😦😵😠😡😵😷🤒\n🤕😨😷😇😯😱🙁😢😩😞\n😀😁😂🤑😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😋\n🤔😘😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😃😚\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩🤗😬\n😰😱😳😞😵😠😡😬😷🤒\n🤕😇🙄😜😕😟😱😖😷🤓",
+          "font": "",
+          "characterSize": 90,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "Logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "logo_emoji_party.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Logo_SKY",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "logo_sky.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Emoji",
+                "235",
+                "70",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Emoji",
+                "<=",
+                "-1910\n\n"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Emoji",
+                "=",
+                "916",
+                "=",
+                "1509"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Finish",
+      "name": "Finish",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.232
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1280,
+          "layer": "",
+          "locked": false,
+          "name": "BG",
+          "width": 720,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 480,
+          "layer": "",
+          "locked": false,
+          "name": "BG_2",
+          "width": 780,
+          "x": -5,
+          "y": -107,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -35,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Emoji",
+          "width": 0,
+          "x": -320,
+          "y": -165,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -35,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Emoji",
+          "width": 0,
+          "x": 877,
+          "y": 1541,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "locked": false,
+          "name": "BG_3",
+          "width": 577,
+          "x": 65,
+          "y": 588,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "locked": false,
+          "name": "Button_Restart",
+          "width": 577,
+          "x": 74,
+          "y": 1113,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "locked": false,
+          "name": "Button_SkyPlay",
+          "width": 577,
+          "x": 74,
+          "y": 973,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Congratulations",
+          "width": 0,
+          "x": 407,
+          "y": 121,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Logo_SKY",
+          "width": 0,
+          "x": 95,
+          "y": 71,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "diversao",
+          "width": 0,
+          "x": 95,
+          "y": 196,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "parabens",
+          "width": 0,
+          "x": 95,
+          "y": 377,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "voce_fez",
+          "width": 0,
+          "x": 174,
+          "y": 489,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "conheca",
+          "width": 0,
+          "x": 95,
+          "y": 749,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "pontos",
+          "width": 0,
+          "x": 226,
+          "y": 623,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "tentar",
+          "width": 0,
+          "x": 118,
+          "y": 1149,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "conhecer",
+          "width": 0,
+          "x": 230,
+          "y": 1006,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "BG",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "BG_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BG_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "BG_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Emoji",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "😀😁😂😎😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😴\n🤔😠😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😝🤓\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩😇😬\n😰😱😳😦😵😠😡😵😷🤒\n🤕😨😷😇😯😱🙁😢😩😞\n😀😁😂🤑😃😄😅😆😉😊\n😋😎😍😘😗😙😚🙂🤗😋\n🤔😘😐😑😶🙄😏😣😥😮\n🤐😯😪😫😴😌😛😜😃😚\n😒😓😔😕🙃🤑😲🙁😖😞\n😟😤😢😭😦😧😨😩🤗😬\n😰😱😳😞😵😠😡😬😷🤒\n🤕😇🙄😜😕😟😱😖😷🤓",
+          "font": "",
+          "characterSize": 120,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "BG_3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "botao_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Button_Restart",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "botao_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Button_SkyPlay",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "botao_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Congratulations",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "É MAIS",
+          "font": "PFDinTextPro-LightItalic.ttf",
+          "characterSize": 70,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "Logo_SKY",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "logo_sky.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": true,
+          "name": "diversao",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "DIVERSÃO",
+          "font": "PFDinTextPro-Bold.ttf",
+          "characterSize": 110,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "parabens",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "PARABÉNS",
+          "font": "PFDinTextPro-Medium.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "voce_fez",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "VOCÊ FEZ",
+          "font": "PFDinTextPro-LightItalic.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "conheca",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "CONHEÇA O SKY PLAY\nE FIQUE POR DENTRO\nDE FILMES E SÉRIES!",
+          "font": "PFDinTextPro-LightItalic.ttf",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "pontos",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "10 PONTOS",
+          "font": "PFDinTextPro-Medium.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "tentar",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "TENTAR NOVAMENTE",
+          "font": "PFDinTextPro-Medium.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "conhecer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "CONHECER",
+          "font": "PFDinTextPro-Medium.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "Emoji",
+                "=",
+                "70"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Toujours"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Emoji",
+                "235",
+                "70",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "Emoji",
+                "<=",
+                "-1900"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Emoji",
+                "=",
+                "854",
+                "=",
+                "1517"
               ],
               "subInstructions": []
             }
